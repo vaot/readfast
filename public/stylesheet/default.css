@@ -1,0 +1,24 @@
+.field-container {
+  max-width: 1170px;
+}
+
+.field-container textarea {
+  margin-bottom: 20px;
+}
+
+.field-container .col-md-8 {
+  margin: auto;
+  float: none;
+}
+
+.screen-container #screen {
+  max-width: 750px;
+}
+
+#screen {
+  padding-top: 50px;
+  text-align: center;
+  margin: auto;
+  height: 300px;
+  font-size: 50px;
+}

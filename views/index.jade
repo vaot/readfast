@@ -1,5 +1,16 @@
 script( src="/javascript/readfast.js" )
-script( src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js" )
 link( rel='stylesheet', href='//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css' )
+link( rel='stylesheet', href='/stylesheet/default.css' )
 
 div( class="container" )
+  div(class="row")
+    div(class="screen-container")
+      div(id="screen") Test Word
+  div(class="row")
+    div(class="field-container")
+      div(class="col-md-8")
+        textarea(id="textData" class="form-control" rows="3")
+        button(id="startReadFast" type="button" class="btn pull-right btn-primary") Start
+        div(class="row")
+          div(class="col-md-3")
+            input(type="text" placeholder="how fast you want ?" class="form-control" id="interval")
